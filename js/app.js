@@ -14,7 +14,8 @@ const viewer = pannellum.viewer('panorama', {
         "sceneFadeDuration": 1000,
         "hfov": 100,      // 視野角を広げる（初期値100くらいがおすすめ）
         "minHfov": 50,    // ズームインの限界
-        "maxHfov": 120
+        "maxHfov": 120,
+        "orientationOnByDefault": false
     },
     "scenes": {
         "entrance": {

@@ -59,3 +59,25 @@ body {
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid #333;
 }
+
+@media screen and (max-width: 768px) {
+    /* スマホの時は地図を一回り小さくして、右下にフィットさせる */
+    #map-container {
+        width: 160px;
+        height: 120px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    /* 現在地ドットも少し小さく */
+    #current-pos {
+        width: 10px;
+        height: 10px;
+    }
+    
+    /* タップしやすいようにボタンの判定だけは少し広めにしておく */
+    .map-dot-button {
+        width: 30px;
+        height: 30px;
+    }
+}
